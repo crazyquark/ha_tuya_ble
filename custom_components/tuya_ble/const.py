@@ -30,7 +30,7 @@ SMARTLIFE_APP = "smartlife"
 TUYA_SMART_APP = "tuyaSmart"
 
 TUYA_API_DEVICES_URL: Final = "/v1.0/users/%s/devices"
-TUYA_API_FACTORY_INFO_URL: Final = "/v1.0/iot-03/devices/factory-infos?device_ids=%s"
+TUYA_API_FACTORY_INFO_URL: Final = "/v1.0/devices/factory-infos?device_ids=%s"
 TUYA_FACTORY_INFO_MAC: Final = "mac"
 
 BATTERY_STATE_LOW: Final = "low"
